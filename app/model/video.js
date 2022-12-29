@@ -19,7 +19,7 @@ module.exports = app => {
     },
     cover: { // 视频封面
       type: String,
-      required: true,
+      required: false,
     },
     user: {
       type: mongoose.ObjectId, // 视频作者

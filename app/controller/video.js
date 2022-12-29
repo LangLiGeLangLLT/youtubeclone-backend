@@ -8,7 +8,7 @@ class VideoController extends Controller {
       title: { type: 'string' },
       description: { type: 'string' },
       vodVideoId: { type: 'string' },
-      cover: { type: 'string' },
+      cover: { type: 'string', required: false },
     }, body)
 
     body.user = this.ctx.user._id
